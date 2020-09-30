@@ -1,0 +1,59 @@
+/* p {
+    color: blue;
+}
+
+p.error {
+    color: red;
+}
+
+p.success.feedback{
+    color: grey;
+    border: 5px solid chocolate;
+}
+
+/* .feedback {
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: chocolate; */ 
+
+    /* div p{
+        color: red;
+    } */
+    #top-container {
+        background: crimson;
+    }
+    #bottom-container {
+        background-color: cyan;
+    }
+
+    div .error{
+        color: blue;
+    }
+
+    a[href] {
+        font-size: 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: darkmagenta;
+    }
+    a[href*="facebook"] {
+        background-color: yellowgreen;
+    }
+
+    a[href$=".ac.id"]{
+        background-color: violet;
+    }
+
+    h1:hover {
+        color: white;
+        background-color: black;
+    }
+
+    p::selection {
+        background-color: yellow;
+        color: red;
+    }
+
+    a::before {
+        content:"Link _";
+    }
